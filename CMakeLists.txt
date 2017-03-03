@@ -95,7 +95,7 @@ add_test (NAME patterns COMMAND patterns_test)
 # Docs
 FIND_PACKAGE(Doxygen QUIET)
 IF (DOXYGEN_FOUND)
-        SET(DOXYGEN_INPUT "${CMAKE_SOURCE_DIR}/Doxyfile")
+        SET(DOXYGEN_INPUT "${CMAKE_CURRENT_SOURCE_DIR}/Doxyfile")
   SET(DOXYGEN_OUTPUT "docs")
 
   ADD_CUSTOM_COMMAND(
